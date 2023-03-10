@@ -14,30 +14,30 @@ function App() {
 
 
   return (
+      <div >
+        <NavBar aboutRef={aboutRef} skillsRef={skillsRef} projectsRef={projectsRef} />
+        <div className='content'>
 
-    <div >
-      <NavBar aboutRef={aboutRef} skillsRef={skillsRef} projectsRef={projectsRef} />
-      <div className='content'>
+          <div ref={aboutRef}>
+            <About />
+          </div>
 
-        <div ref={aboutRef}>
-          <About />
+          <div >
+            <Skills ref={skillsRef} />
+          </div>
+
+          <div ref={projectsRef}>
+            <Projects />
+          </div>
+
         </div>
-
-        <div >
-          <Skills ref={skillsRef} />
+        <div class="container-bottom">
+          <svg class="svg-bottom" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+            <path d="M0,100 C150,200 350,0 500,100 L500,500 L0,500 Z" class="path"></path>
+          </svg>
         </div>
+      </div> 
 
-        <div ref={projectsRef}>
-          <Projects />
-        </div>
-
-      </div>
-      <div class="container-bottom">
-        <svg class="svg-bottom" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
-          <path d="M0,100 C150,200 350,0 500,100 L500,500 L0,500 Z" class="path"></path>
-        </svg>
-      </div>
-    </div>
   );
 }
 

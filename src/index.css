@@ -228,22 +228,34 @@ body {
 }
 
 .skill-1{
-  background-image: linear-gradient(to bottom right, rgb(237, 112, 204), rgb(239, 198, 233));
-}
-
-.skill-2{
-  background-image: linear-gradient(to bottom right, rgb(187, 112, 237), rgb(226, 208, 223));
-}
-
-.skill-3{
+  /* background-image: linear-gradient(to bottom right, rgb(237, 112, 204), rgb(239, 198, 233)); */
   background-image: linear-gradient(to bottom right, rgb(255, 234, 171), rgb(243, 188, 235));
 }
 
+.skill-2{
+  background-image: linear-gradient(to bottom right, rgb(45, 123, 200), rgb(226, 208, 223));
+}
+
+/* .skill-3{
+  background-image: linear-gradient(to bottom right, rgb(255, 234, 171), rgb(243, 188, 235));
+} */
+
+.skill-3{
+  background-image: linear-gradient(to bottom right, rgb(73, 230, 96), rgb(246, 214, 250));
+}
+
 .skill-text {
-  float: left;
   padding: 0px;
   margin: 0px;  
   font-weight: 600;
+  vertical-align: middle;
+}
+
+.skill-image{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
 }
 
 .skill-icon {
@@ -253,8 +265,6 @@ body {
   color: green;
   margin-right: 10px;
 }
-
-
 
 .contact{
   margin: 0px;
