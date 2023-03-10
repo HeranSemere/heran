@@ -2,9 +2,6 @@ import 'index.js'
 import { FaCheckCircle } from 'react-icons/fa';
 
 const SkillCard = ({ data, index }) => {
-
-    console.log(index)
-
     return (
         <div>
             <div className="skills">
