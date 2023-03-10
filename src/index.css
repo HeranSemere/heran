@@ -207,8 +207,9 @@ body {
   transform: scale(1.08);
 }
 
-.skills {
-  
+.carousel-code:hover{
+  background-color: #ddd;
+  color: black;
 }
 
 .skill{
@@ -300,3 +301,6 @@ body {
   margin: 0px;
 }
 
+.carousel-button{
+  background-color: blue;
+}
