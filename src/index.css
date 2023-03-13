@@ -301,6 +301,6 @@ body {
   margin: 0px;
 }
 
-.carousel-button{
-  background-color: blue;
+.carousel-button:hover{
+  background-color: #ddd;
 }
