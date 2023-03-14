@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/heran/static/css/main.3bbcce84.css",
-    "main.js": "/heran/static/js/main.4b3b6296.js",
+    "main.css": "/heran/static/css/main.f1e01c41.css",
+    "main.js": "/heran/static/js/main.2831c0ca.js",
     "static/js/787.514104e5.chunk.js": "/heran/static/js/787.514104e5.chunk.js",
     "static/media/grid.svg": "/heran/static/media/grid.3db1cf7bac1e906638b413c7eba56ac4.svg",
     "index.html": "/heran/index.html",
-    "main.3bbcce84.css.map": "/heran/static/css/main.3bbcce84.css.map",
-    "main.4b3b6296.js.map": "/heran/static/js/main.4b3b6296.js.map",
+    "main.f1e01c41.css.map": "/heran/static/css/main.f1e01c41.css.map",
+    "main.2831c0ca.js.map": "/heran/static/js/main.2831c0ca.js.map",
     "787.514104e5.chunk.js.map": "/heran/static/js/787.514104e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bbcce84.css",
-    "static/js/main.4b3b6296.js"
+    "static/css/main.f1e01c41.css",
+    "static/js/main.2831c0ca.js"
   ]
 }
