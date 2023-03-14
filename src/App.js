@@ -31,11 +31,11 @@ function App() {
           </div>
 
         </div>
-        <div class="container-bottom">
+        {/* <div class="container-bottom">
           <svg class="svg-bottom" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
             <path d="M0,100 C150,200 350,0 500,100 L500,500 L0,500 Z" class="path"></path>
           </svg>
-        </div>
+        </div> */}
       </div> 
 
   );
